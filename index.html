@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jilquero</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script defer src="js/theme.js"></script>
+</head>
+
+<body class="dark">
+
+    <div id="background" class="background">
+        <ul class="background__shapes">
+            <li class="circle red"></li>
+            <li class="empty big blue"></li>
+            <li class="circle empty medium"></li>
+            <li class="circle empty white"></li>
+            <li class="medium red"></li>
+            <li class="circle medium white"></li>
+            <li class="circle blue"></li>
+            <li class="circle empty big white"></li>
+            <li class="empty medium blue"></li>
+            <li class="big red"></li>
+            <li class="empty"></li>
+            <li class="cicle medium"></li>
+            <li class="small white"></li>
+            <li class="blue"></li>
+            <li class="empty medium red"></li>
+            <li class="cicle empty"></li>
+        </ul>
+    </div>
+
+
+    <nav class="navbar brief" id="nav">
+        <ul class="nav__list">
+
+            <li class="nav__element nav__element-menu">
+                <label class="nav__label" for="menu-button">
+                    <i class="bi bi-list nav__icon"></i>
+                    <span class="nav__text">Menu</span>
+                </label>
+            </li>
+
+            <li class="nav__element nav__element-brief">
+                <label class="nav__label" for="brief">
+                    <i class="bi bi-braces nav__icon"></i>
+                    <span class="nav__text">Brief</span>
+                </label>
+            </li>
+
+            <li class="nav__element nav__element-about-me">
+                <label class="nav__label" for="about-me">
+                    <i class="bi bi-person nav__icon"></i>
+                    <span class="nav__text">About me</span>
+                </label>
+            </li>
+
+            <li class="nav__element nav__element-projects">
+                <label class="nav__label" for="projects">
+                    <i class="bi bi-folder nav__icon"></i>
+                    <span class="nav__text">Projects</span>
+                </label>
+            </li>
+
+            <li class="nav__element nav__element-contact-me">
+                <label class="nav__label" for="contact-me">
+                    <i class="bi bi-chat nav__icon"></i>
+                    <span class="nav__text">Contact me</span>
+                </label>
+            </li>
+
+            <li class="nav__element nav__element-theme">
+                <label class="nav__label" for="theme-button">
+                    <i class="bi bi-lightbulb nav__icon"></i>
+                    <span class="nav__text">Theme</span>
+                </label>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <input type="button" name="menu" id="menu-button" class="hidden" value="menu-button">
+    <input type="radio" name="page" id="brief" class="hidden" value="0" checked>
+    <input type="radio" name="page" id="about-me" class="hidden" value="1">
+    <input type="radio" name="page" id="projects" class="hidden" value="2">
+    <input type="radio" name="page" id="contact-me" class="hidden" value="3">
+    <input type="button" name="theme" id="theme-button" class="hidden" value="theme-button">
+
+    <div class="content">
+        <section class="page page__brief">
+            <div class="page__stripe"></div>
+            <div class="page__content">
+                <div class="page__header element__box">
+                    <h2>"Hello, World!"</h2>
+                </div>
+
+                <div class="page__text element__box">
+                    <h2>
+                        I'm Mateusz.<br>
+                        A software developer.
+                    </h2>
+                </div>
+
+                <div class="page__quote element__box">
+                    <p id="quote__quote">"Here goes the quote..."</p>
+                    <small id="quote__author">- Author</small>
+                </div>
+                <script src="js/quote.js"></script>
+            </div>
+        </section>
+
+        <section class="page page__about-me">
+            <div class="page__stripe"></div>
+            <div class="page__content">
+                <div class="page__about-me-header">
+                    <div class="page__header element__box">
+                        <h2>About Me</h2>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="page__about-me-info">
+                    <div class="page__story element__box">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sint facere tenetur, quas
+                            officia ipsum accusantium quos, dicta fuga beatae, aliquam nesciunt maiores aspernatur
+                            placeat
+                            error iure magni asperiores voluptate. Ullam quis accusamus, incidunt quam suscipit esse
+                            reprehenderit porro minus vel voluptates libero repudiandae optio quasi, eius nihil impedit
+                            quas
+                            explicabo neque aliquam necessitatibus? Sint hic accusamus eaque, doloribus, repellendus
+                            natus
+                            ducimus delectus rerum, sunt at enim vitae architecto fugit libero velit. Laudantium, velit
+                            reprehenderit quod, odio culpa explicabo laboriosam, ratione atque et deleniti dolor numquam
+                            voluptatem? Sunt suscipit fugiat possimus vero. Asperiores nisi laborum ex perspiciatis et
+                            molestiae nulla!
+                        </p>
+                    </div>
+
+                    <div class="page__skills element__box">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sint facere tenetur, quas
+                            officia ipsum accusantium quos, dicta fuga beatae, aliquam nesciunt maiores aspernatur
+                            placeat
+                            error iure magni asperiores voluptate. Ullam quis accusamus, incidunt quam suscipit esse
+                            reprehenderit porro minus vel voluptates libero repudiandae optio quasi, eius nihil impedit
+                            quas
+                            explicabo neque aliquam necessitatibus? Sint hic accusamus eaque, doloribus, repellendus
+                            natus
+                            ducimus delectus rerum, sunt at enim vitae architecto fugit libero velit. Laudantium, velit
+                            reprehenderit quod, odio culpa explicabo laboriosam, ratione atque et deleniti dolor numquam
+                            voluptatem? Sunt suscipit fugiat possimus vero. Asperiores nisi laborum ex perspiciatis et
+                            molestiae nulla!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page page__projects">
+            <div class="page__stripe"></div>
+            <div class="page__content">
+                <div class="page__header element__box">
+                    <h2>My projects</h2>
+                </div>
+
+                <div class="page__projects element__box">
+                    <ul class="projects__list"></ul>
+                </div>
+                <script src="js/projects.js"></script>
+            </div>
+        </div>
+
+        <section class="page page__contact-me">
+            <div class="page__stripe"></div>
+            <div class="page__content">
+
+                <div class="page__contact-info">
+                    <div class="page__header element__box">
+                        <h2>Contact me</h2>
+                    </div>
+
+                    <form action="/" method="GET" id="contact-me__form" class="page__form element__box">
+
+                        <div class="form__row">
+                            <div class="form__field form__email">
+                                <label class="input__label" for="input__email">Email</label>
+                                <input type="text" placeholder="Email" autocomplete="off" name="email"
+                                    id="input__email">
+                                <span class="input__error ">Required/Invalid Email</span>
+                            </div>
+
+                            <div class="form__field form__name">
+                                <label class="input__label" for="input__name">Name</label>
+                                <input type="text" placeholder="Name" autocomplete="off" name="name" id="input__name">
+                                <span class="input__error">Required</span>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__field form__number">
+                                <label class="input__label" for="input__number">Phone Number</label>
+                                <input type="text" placeholder="Phone Number" autocomplete="off" name="phoneNumber"
+                                    id="input__phoneNumber">
+                                <span class="input__error">Required/Invalid Number</span>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__field form__subject">
+                                <label class="input__label" for="input__subject">Subject</label>
+                                <input type="text" list="reasons" placeholder="Subject" autocomplete="off"
+                                    name="subject" id="input__subject">
+                                <span class="input__error">Required</span>
+                                <datalist id="reasons">
+                                    <option value="I'd like to start a project">
+                                    <option value="I'd like to ask a question">
+                                    <option value="I'd like to make a proposal">
+                                </datalist>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__field form__message">
+                                <label class="input__label" for="input__message">Message</label>
+                                <textarea name="message" placeholder="Message" autocomplete="off"
+                                    id="input__message"></textarea>
+                                <span class="input__error">Required</span>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__field form__submit">
+                                <input type="submit" value="Send Mess" id="form__submit">
+                            </div>
+
+                            <div class="form__field form__submit">
+                                <input type="button" value="Save Mess" id="form__save">
+                            </div>
+
+                            <div class="form__field form__submit">
+                                <input type="reset" value="Clear Storage" id="form__clear">
+                            </div>
+
+                            <div class="form__field form__submit">
+                                <select type="select" value="Load Mess" id="form__load-mes">
+                                    <option value="-1">New Mess</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+                    <script src="js/validate.js"></script>
+
+                    <div class="page__media element__box">
+                        <ul>
+                            <li class="media__facebook">
+                                <a href="https://www.facebook.com/m.szczygi/">
+                                    <i class="bi bi-facebook media__icon"></i>
+                                </a>
+                            </li>
+                            <li class="media__github">
+                                <a href="https://github.com/jilquero">
+                                    <i class="bi bi-github media__icon"></i>
+                                </a>
+                            </li>
+                            <li class="media__linked-in">
+                                <a href="https://www.linkedin.com/in/mateusz-szczygielski-6b746a236/">
+                                    <i class="bi bi-linkedin media__icon"></i>
+                                </a>
+                            </li>
+                            <li class="media__discord">
+                                <a href="https://discordapp.com/users/259062983097843712">
+                                    <i class="bi bi-discord media__icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="page__map element__box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.8840667817226!2d22.594383401565867!3d51.25804389999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257319ff7dbcb%3A0x715e7a09440c9c61!2sNiepodleg%C5%82o%C5%9Bci%203%2C%2020-400%20Lublin!5e0!3m2!1spl!2spl!4v1648868016972!5m2!1spl!2spl"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
